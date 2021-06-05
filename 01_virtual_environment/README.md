@@ -1,6 +1,17 @@
-# 1. Установка Flask-RESTX в виртуальную среду
+# Flask-RESTX tutorial
 
-[Flask-RESTX](https://flask-restx.readthedocs.io/en/latest/quickstart.html#migrate-from-flask-restplus) — это расширение Flask для создания REST API, является форком другого расширения [Flask-RESTPlus](https://flask-restplus.readthedocs.io/en/stable/) (не обновляется с 2019 года).
+**Оглавление:**
+
+1. Установка Flask-RESTX в виртуальную среду
+2. [Первое приложение](../02_first_application/README.md)
+3. [Создание и добавление ресурсов](../03_creating_resources/README.md)
+4. [Парсинг данных запроса](../04_request_parsing/README.md)
+
+---
+
+## 1. Установка Flask-RESTX в виртуальную среду
+
+[Flask-RESTX](https://flask-restx.readthedocs.io/en/latest/quickstart.html#migrate-from-flask-restplus) — это расширение Flask для создания REST API, является форком другого расширения [Flask-RESTPlus](https://flask-restplus.readthedocs.io/en/stable/), которое не обновляется с 2019 года.
 
 1. Создание новой виртуальной среды для Python 3:
 ```bash
@@ -28,7 +39,7 @@ pip install flask-restx
 
 Необходимые зависимости для работы пакета устанавливаются автоматически.
 
-5. Запуск скрипта `main.py`:
+5. Запуск скрипта, например `main.py`, происходит следующим образом:
 ```bash
 python main.py
 ```
