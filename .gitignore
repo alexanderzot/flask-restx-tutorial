@@ -1,2 +1,5 @@
 # PyCharm IDEA
 .idea/
+
+# Python cashe
+__pycache__/
