@@ -54,6 +54,7 @@ user_parser.add_argument("age",
   * bool — логическое;
   * int — целое;
   * str — строка;
+  * dict — cловарь (по сути json объект);
   * float — дробное число; 
   * [flask_restx.inputs](https://flask-restx.readthedocs.io/en/latest/api.html#module-flask_restx.inputs) — содержит расширенный набор типов, который необходимо импортировать отдельно (`from flask_restx.inputs import <type_name>`):
     * URL — адрес URL (настраиваемый тип);
